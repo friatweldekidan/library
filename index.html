@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript Exercises</title>
+    <title>Library</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    hi
 
+<body>
+    <h1>The Reader's Planet</h1>
+    <button id="newBookBtn">New Book</button>
+    <div id="bookForm" style="display: none;">
+        <form id="newBookForm">
+            <input type="text" id="title" placeholder="Title" required>
+            <input type="text" id="author" placeholder="Author" required>
+            <input type="number" id="pages" placeholder="Number of Pages" required>
+            <label>
+                <input type="checkbox" id="read"> Read
+            </label>
+            <button type="submit">Add Book</button>
+        </form>
+    </div>
+    <div id="library"></div>
+  
     <script src="script.js"></script>
 </body>
+
 </html>

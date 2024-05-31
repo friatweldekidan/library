@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('/img/books.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 100vw; 
+    height: 100vh;  
+    font-family: Arial, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  h1 {
+    text-align: center;
+    color: aliceblue;
+    padding: 20px;
+  }
+  #library {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .book-card {
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    background-color: papayawhip;
+  }
+  
+  .book-card button {
+    margin-top: 10px;
+  }
+
+  #newBookBtn {
+     margin-left: 600px;
+  }
+
+  #newBookForm {
+    margin-left: 300px;
+    padding: 20px;
+  }
